@@ -4,13 +4,22 @@
 	(generator_version "8.0")
 	(uuid "f251d969-db3d-42b0-b168-8992c4b2bbf4")
 	(paper "A4")
+	(title_block
+		(title "Main")
+		(date "2024-11-27")
+		(rev "0.1")
+		(company "NekoCo")
+	)
 	(lib_symbols
-		(symbol "Amplifier_Audio:IR4301"
+		(symbol "Device:Battery_Cell"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 20.955 0)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18,8 +27,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "IR4301"
-				(at -7.62 19.05 0)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,18 +36,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/ir4301.pdf?fileId=5546d462533600a4015355d5fc691819"
-				(at 0 0 0)
+			(property "Footprint" ""
+				(at 0 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -46,8 +45,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "PowIRaudio Integrated Analog Input Class D Audio Amplifier, 160W/4ohm, 80V, PQFN-22"
-				(at 0 0 0)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -55,7 +54,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "integrated class d amplifier"
+			(property "Description" "Single-cell battery"
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,7 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Infineon*PQFN*4EP*6x5mm*P0.65mm*"
+			(property "ki_keywords" "battery cell"
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,24 +72,83 @@
 					(hide yes)
 				)
 			)
-			(symbol "IR4301_0_1"
+			(symbol "Battery_Cell_0_1"
 				(rectangle
-					(start -7.62 -15.24)
-					(end 7.62 17.78)
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(symbol "IR4301_1_1"
-				(pin power_in line
-					(at -10.16 15.24 0)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
 					(length 2.54)
-					(name "VAA"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -105,118 +163,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 -17.78 90)
-					(length 2.54)
-					(name "VN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 20.32 270)
-					(length 2.54)
-					(name "VP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "VB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 10.16 10.16 180)
+					(at 0 -2.54 90)
 					(length 2.54)
-					(name "CSH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 90)
-					(length 2.54) hide
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "GND"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -231,125 +181,95 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 12.7 0)
-					(length 2.54)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(pin input line
-					(at -10.16 10.16 0)
-					(length 2.54)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-				(pin output line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "COMP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "CSD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			)
+			(symbol "GND_1_1"
 				(pin power_in line
-					(at -10.16 -12.7 0)
-					(length 2.54)
-					(name "VSS"
+					(at 0 0 270)
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -17.78 90)
-					(length 2.54)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -360,46 +280,461 @@
 			)
 		)
 	)
+	(junction
+		(at 160.02 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6342216-6480-4ce8-abca-796131f8bb6d")
+	)
+	(junction
+		(at 133.35 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf511554-1bab-43eb-a965-264371375f30")
+	)
+	(junction
+		(at 160.02 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f10c8321-1d0f-4182-a653-f5d0acb6ec6b")
+	)
+	(wire
+		(pts
+			(xy 160.02 68.58) (xy 160.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c906e59-7366-49f1-a8d3-797ca548dd68")
+	)
+	(wire
+		(pts
+			(xy 180.34 101.6) (xy 196.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1960c8fa-b1b9-4b61-a414-2953fea2313e")
+	)
+	(wire
+		(pts
+			(xy 196.85 106.68) (xy 196.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0107c9-0503-4020-a5dc-1ada4a6b6b3e")
+	)
+	(wire
+		(pts
+			(xy 199.39 81.28) (xy 207.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2121f7f0-0d0e-4760-9c52-bbc65db3d986")
+	)
+	(wire
+		(pts
+			(xy 160.02 81.28) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2425ab76-a91c-40d8-8871-0a6739a7665c")
+	)
+	(wire
+		(pts
+			(xy 133.35 104.14) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30487e5d-765c-40c5-b278-5802c01c7dfa")
+	)
+	(wire
+		(pts
+			(xy 180.34 106.68) (xy 196.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "427b667c-8a68-406b-94a2-04e61c0fcd1a")
+	)
+	(wire
+		(pts
+			(xy 160.02 104.14) (xy 160.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4314d461-0630-449f-b309-c43697e4445a")
+	)
+	(wire
+		(pts
+			(xy 167.64 68.58) (xy 160.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "472c054e-1375-48aa-aa70-e06dc344b1d8")
+	)
+	(wire
+		(pts
+			(xy 160.02 104.14) (xy 167.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52387717-d510-4092-a5f6-1c3f8a5c28cd")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 160.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567592ef-cf33-406c-aca9-9defc28b284b")
+	)
+	(wire
+		(pts
+			(xy 133.35 91.44) (xy 139.7 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72da71ba-b72c-4c62-9bbc-8a9d94180b46")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 133.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7321c17f-8425-4eee-9132-040b1745f3bf")
+	)
+	(wire
+		(pts
+			(xy 207.01 81.28) (xy 207.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841c4ca6-3a64-4564-bc84-efcca596bf1f")
+	)
+	(wire
+		(pts
+			(xy 180.34 81.28) (xy 186.69 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900d389c-68c5-493b-9aac-fe60a8ad3da1")
+	)
+	(wire
+		(pts
+			(xy 180.34 68.58) (xy 193.04 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b25be6c9-2568-46d5-8e35-ac10a5c7ba94")
+	)
+	(wire
+		(pts
+			(xy 196.85 93.98) (xy 196.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdaf1b04-9328-4667-a03c-bb8b8609ca73")
+	)
+	(wire
+		(pts
+			(xy 173.99 107.95) (xy 173.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4389aa6-84b2-4398-aaec-06793bdcf498")
+	)
+	(wire
+		(pts
+			(xy 200.66 93.98) (xy 196.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d20ef344-0bac-4fdd-8c73-c2c42a48f665")
+	)
+	(wire
+		(pts
+			(xy 196.85 114.3) (xy 200.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d48c42ba-2083-400a-9c33-3b56dcbe1986")
+	)
+	(wire
+		(pts
+			(xy 193.04 68.58) (xy 193.04 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb01cb3c-ade3-4dc4-a7c0-05db1e106bed")
+	)
+	(wire
+		(pts
+			(xy 133.35 104.14) (xy 139.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f349a51a-5d65-4129-a2f1-40baf13cb7ed")
+	)
+	(wire
+		(pts
+			(xy 173.99 125.73) (xy 173.99 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9cc078-91b3-4bfa-ba31-1250b35b45da")
+	)
+	(text_box "Pump"
+		(exclude_from_sim no)
+		(at 139.7 87.63 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0aca6025-83c6-448d-9fce-05d3d3540448")
+	)
+	(text_box "5V/2.5A buck converter"
+		(exclude_from_sim no)
+		(at 139.7 100.33 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1b0c4885-3495-4189-8a53-dc09e2b90ad7")
+	)
+	(text_box "Water lever sensor\n"
+		(exclude_from_sim no)
+		(at 167.64 64.77 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "436a506f-eb03-4f71-adb6-e692900e3d9a")
+	)
+	(text_box "PD sink controller"
+		(exclude_from_sim no)
+		(at 114.3 100.33 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b1523add-0a7f-40e0-ab23-48ba609e989f")
+	)
+	(text_box "Flow sensor"
+		(exclude_from_sim no)
+		(at 167.64 77.47 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c7314a97-1605-42b9-bf3d-6ac1e10b9759")
+	)
+	(text_box "MCU"
+		(exclude_from_sim no)
+		(at 200.66 90.17 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca7ee009-b87e-4a92-8ab1-89d979b964ae")
+	)
+	(text_box "Level shifter"
+		(exclude_from_sim no)
+		(at 186.69 77.47 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce433d0b-06b7-4fc3-b138-bd20cb801209")
+	)
+	(text_box "Sensors (3V3)"
+		(exclude_from_sim no)
+		(at 200.66 110.49 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4b07621-b5da-4c2f-9875-a5b46dd58965")
+	)
+	(text_box "nPM1300"
+		(exclude_from_sim no)
+		(at 167.64 100.33 0)
+		(size 12.7 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d73d3099-930f-46e2-b593-31036fa4d7cf")
+	)
+	(label "3V3{slash}200mA-1"
+		(at 181.61 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e0d40e4-bd37-43d1-b6ee-2f76aa714706")
+	)
+	(label "800mA"
+		(at 173.99 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "faff725a-db47-452b-9da9-680bf558b0f5")
+	)
+	(label "3V3{slash}200mA-2"
+		(at 181.61 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe1c63f4-98c3-4a04-82f8-ebc9d36d01a0")
+	)
 	(symbol
-		(lib_id "Amplifier_Audio:IR4301")
-		(at 163.83 69.85 0)
+		(lib_id "power:GND")
+		(at 173.99 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0c48b17f-7962-4ef1-b3f2-1562f473449f")
-		(property "Reference" "U2"
-			(at 171.1041 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IR4301"
-			(at 171.1041 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm"
-			(at 163.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/ir4301.pdf?fileId=5546d462533600a4015355d5fc691819"
-			(at 163.83 69.85 0)
+		(uuid "7109afc3-e77c-4ddc-90c3-78efc7f93239")
+		(property "Reference" "#PWR057"
+			(at 173.99 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,8 +742,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PowIRaudio Integrated Analog Input Class D Audio Amplifier, 160W/4ohm, 80V, PQFN-22"
-			(at 163.83 69.85 0)
+		(property "Value" "GND"
+			(at 173.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -417,71 +778,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ebdd011-4382-4945-bf36-248ca1ec5ad0")
-		)
-		(pin "15"
-			(uuid "1b74fe0c-aad1-4f67-ad8c-6937d5f73bde")
-		)
-		(pin "8"
-			(uuid "9e182a09-ca60-4ffb-b636-461d2c5925cc")
-		)
-		(pin "4"
-			(uuid "38ccd382-bf34-4ab2-9d84-adc4df54ce4f")
-		)
-		(pin "5"
-			(uuid "eb870b38-26a6-4ab0-8897-48ce720e8867")
-		)
-		(pin "9"
-			(uuid "5ceccd06-9e4d-4c9b-86d5-25a7ccadd647")
-		)
-		(pin "13"
-			(uuid "e4859b62-669d-4273-a536-2afee0569d69")
-		)
-		(pin "10"
-			(uuid "25e6f93a-3350-43bf-9910-7e7e1d6c14c4")
-		)
-		(pin "3"
-			(uuid "3bd064aa-0695-4c3c-bc16-3792c6ddece6")
-		)
-		(pin "7"
-			(uuid "f5451426-5642-4eb7-bd5c-ae4ec3fd515c")
-		)
-		(pin "11"
-			(uuid "9ba4cf4f-3999-4574-b9b0-96482731ddbd")
-		)
-		(pin "12"
-			(uuid "fe6237fc-e7af-4d27-a791-3462d4e84498")
-		)
-		(pin "2"
-			(uuid "00bfb57c-bb2b-46f6-9628-973ac4964fb0")
-		)
-		(pin "14"
-			(uuid "32e077ed-f66d-4bc0-afd1-b6f05a7efa3e")
-		)
-		(pin "6"
-			(uuid "160adb98-b31d-4f8f-b5b9-85d6c29f5af3")
+			(uuid "db747531-a923-4a7a-8857-e2b693659abe")
 		)
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4"
-					(reference "U2")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Audio:IR4301")
-		(at 120.65 68.58 0)
+		(lib_id "Device:Battery_Cell")
+		(at 173.99 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "66610f71-8890-4269-b185-c0249a7f6d27")
-		(property "Reference" "U1"
-			(at 127.9241 45.72 0)
+		(uuid "df3e2c53-d562-42c6-a9c0-48fbd8a92606")
+		(property "Reference" "BT1"
+			(at 177.8 120.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -489,8 +808,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IR4301"
-			(at 127.9241 48.26 0)
+		(property "Value" "Battery_Cell"
+			(at 177.8 122.6184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -498,18 +817,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm"
-			(at 120.65 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/ir4301.pdf?fileId=5546d462533600a4015355d5fc691819"
-			(at 120.65 68.58 0)
+		(property "Footprint" ""
+			(at 173.99 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -517,8 +826,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PowIRaudio Integrated Analog Input Class D Audio Amplifier, 160W/4ohm, 80V, PQFN-22"
-			(at 120.65 68.58 0)
+		(property "Datasheet" "~"
+			(at 173.99 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,56 +835,198 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "4ebdd011-4382-4945-bf36-248ca1ec5ad0")
-		)
-		(pin "15"
-			(uuid "1b74fe0c-aad1-4f67-ad8c-6937d5f73bde")
-		)
-		(pin "8"
-			(uuid "9e182a09-ca60-4ffb-b636-461d2c5925cc")
-		)
-		(pin "4"
-			(uuid "38ccd382-bf34-4ab2-9d84-adc4df54ce4f")
-		)
-		(pin "5"
-			(uuid "eb870b38-26a6-4ab0-8897-48ce720e8867")
-		)
-		(pin "9"
-			(uuid "5ceccd06-9e4d-4c9b-86d5-25a7ccadd647")
-		)
-		(pin "13"
-			(uuid "e4859b62-669d-4273-a536-2afee0569d69")
-		)
-		(pin "10"
-			(uuid "25e6f93a-3350-43bf-9910-7e7e1d6c14c4")
-		)
-		(pin "3"
-			(uuid "3bd064aa-0695-4c3c-bc16-3792c6ddece6")
-		)
-		(pin "7"
-			(uuid "f5451426-5642-4eb7-bd5c-ae4ec3fd515c")
-		)
-		(pin "11"
-			(uuid "9ba4cf4f-3999-4574-b9b0-96482731ddbd")
-		)
-		(pin "12"
-			(uuid "fe6237fc-e7af-4d27-a791-3462d4e84498")
+		(property "Description" "Single-cell battery"
+			(at 173.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "00bfb57c-bb2b-46f6-9628-973ac4964fb0")
+			(uuid "747c4590-7136-4d7d-aab2-7c6fcde70f70")
 		)
-		(pin "14"
-			(uuid "32e077ed-f66d-4bc0-afd1-b6f05a7efa3e")
-		)
-		(pin "6"
-			(uuid "160adb98-b31d-4f8f-b5b9-85d6c29f5af3")
+		(pin "1"
+			(uuid "07d0982d-406f-4a91-acf9-afd30cc284ac")
 		)
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4"
-					(reference "U1")
+					(reference "BT1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 26.67)
+		(size 34.29 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "428ea429-cc4e-4f78-8c56-b27dd8bc0f5d")
+		(property "Sheetname" "LEDS"
+			(at 96.52 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "User.Interface_sch.kicad_sch"
+			(at 96.52 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Din" input
+			(at 96.52 34.29 180)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left)
+			)
+			(uuid "375a80dd-43e6-41e2-9c42-5d1aedab3740")
+		)
+		(pin "DOUT" tri_state
+			(at 96.52 39.37 180)
+			(effects
+				(font
+					(size 3 3)
+				)
+				(justify left)
+			)
+			(uuid "108eda91-a99e-4be7-8d49-b6a0dfa4684b")
+		)
+		(instances
+			(project "P01_Hydroponics"
+				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 26.67)
+		(size 58.42 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "44d12fc4-0e2a-4252-b21d-e3e681c86272")
+		(property "Sheetname" "MCU"
+			(at 20.32 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_sch.kicad_sch"
+			(at 20.32 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P01_Hydroponics"
+				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 80.01)
+		(size 58.42 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e5c4e77-de36-488a-a64d-10d75fbb8959")
+		(property "Sheetname" "USB-Type-C PD with battery charger"
+			(at 20.32 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-C_sch.kicad_sch"
+			(at 20.32 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P01_Hydroponics"
+				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 26.67)
+		(size 36.83 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba")
+		(property "Sheetname" "Sensors"
+			(at 171.45 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors_sch.kicad_sch"
+			(at 171.45 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "P01_Hydroponics"
+				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4"
+					(page "4")
 				)
 			)
 		)
