@@ -1074,16 +1074,6 @@
 		(color 0 0 0 0)
 		(uuid "d8a7d455-21d5-4f0a-ac16-12d8cc77f0a0")
 	)
-	(bus
-		(pts
-			(xy 246.38 38.1) (xy 246.38 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08c85f6b-66ff-4bbb-ae57-7ef7033d8bab")
-	)
 	(wire
 		(pts
 			(xy 165.1 83.82) (xy 137.16 83.82)
@@ -1153,16 +1143,6 @@
 			(type default)
 		)
 		(uuid "322417a9-cf78-4edb-9996-1b442778c05a")
-	)
-	(bus
-		(pts
-			(xy 246.38 31.75) (xy 248.92 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35f36bdd-adcc-48c4-8d18-be673dc3a0e5")
 	)
 	(wire
 		(pts
@@ -3208,6 +3188,11 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
