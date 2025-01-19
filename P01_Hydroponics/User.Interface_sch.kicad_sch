@@ -1408,7 +1408,6 @@
 	)
 	(label "DIN"
 		(at 96.52 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1419,7 +1418,6 @@
 	)
 	(label "LED_EN"
 		(at 138.43 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1430,7 +1428,6 @@
 	)
 	(label "V_led"
 		(at 116.84 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1441,7 +1438,6 @@
 	)
 	(label "DOUT"
 		(at 210.82 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

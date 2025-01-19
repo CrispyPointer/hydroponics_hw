@@ -3063,7 +3063,6 @@
 	)
 	(label "CC2"
 		(at 48.26 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3074,7 +3073,6 @@
 	)
 	(label "VSYS"
 		(at 147.32 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3085,7 +3083,6 @@
 	)
 	(label "CC1"
 		(at 48.26 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3096,7 +3093,6 @@
 	)
 	(label "VSET"
 		(at 102.87 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3107,7 +3103,6 @@
 	)
 	(label "VBUS"
 		(at 48.26 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3118,7 +3113,6 @@
 	)
 	(label "ISET"
 		(at 102.87 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
