@@ -1554,6 +1554,7 @@
 	)
 	(label "PWM1"
 		(at 17.78 41.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
