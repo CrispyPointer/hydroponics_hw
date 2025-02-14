@@ -440,6 +440,10 @@
     [
       "9e5c4e77-de36-488a-a64d-10d75fbb8959",
       "USB-Type-C PD"
+    ],
+    [
+      "2d86bb39-20a4-44ab-a332-a2df255b6f9f",
+      "Power"
     ]
   ],
   "text_variables": {}
