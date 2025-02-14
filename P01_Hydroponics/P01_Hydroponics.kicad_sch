@@ -10,6 +10,7 @@
 		(rev "0.1")
 		(company "NekoCo")
 	)
+<<<<<<< HEAD
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
 			(pin_numbers hide)
@@ -1012,6 +1013,9 @@
 			)
 		)
 	)
+=======
+	(lib_symbols)
+>>>>>>> b2d468d365a4fa0f1165d75a8013ec404c0d3fb5
 	(sheet
 		(at 96.52 26.67)
 		(size 34.29 20.32)
@@ -1113,14 +1117,14 @@
 		(size 58.42 22.86)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0)
 			(type solid)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9e5c4e77-de36-488a-a64d-10d75fbb8959")
-		(property "Sheetname" "USB-Type-C PD with battery charger"
+		(property "Sheetname" "USB-Type-C PD"
 			(at 20.32 79.2984 0)
 			(effects
 				(font
@@ -1129,7 +1133,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB-C_sch.kicad_sch"
+		(property "Sheetfile" "USB-Type C PD_sch.kicad_sch"
 			(at 20.32 103.4546 0)
 			(effects
 				(font
