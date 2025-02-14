@@ -784,32 +784,33 @@
 				)
 			)
 		)
-		(symbol "Device:R"
+		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0.254) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 0.762 0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -826,7 +827,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -835,7 +836,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -853,12 +854,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R_Small_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -866,10 +867,10 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -886,8 +887,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 0 -2.54 90)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -1563,7 +1564,7 @@
 		(uuid "4e668c2b-8f54-4042-9aae-9e4f95d891a9")
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_Small")
 		(at 35.56 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1591,7 +1592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.782 48.26 90)
+			(at 35.56 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,7 +1609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 35.56 48.26 0)
 			(effects
 				(font
@@ -1642,7 +1643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42eb7c46-05e0-4827-82c2-945ed266ed0a")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 45.72 60.96 0)
 			(effects
 				(font
@@ -1692,7 +1693,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2246,7 +2247,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_Small")
 		(at 29.21 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2256,7 +2257,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb1f0252-4999-4460-9bd3-d5d8b8c2ce4f")
 		(property "Reference" "R16"
-			(at 29.21 35.56 90)
+			(at 29.21 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,7 +2265,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 29.21 38.1 90)
+			(at 29.21 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +2273,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 43.688 90)
+			(at 29.21 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, small symbol"
 			(at 29.21 41.91 0)
 			(effects
 				(font
