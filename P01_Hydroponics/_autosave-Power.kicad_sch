@@ -2586,7 +2586,7 @@
 		(uuid "4e78bd57-aaf8-4653-8901-fadd817842de")
 	)
 	(bus_entry
-		(at 274.32 21.59)
+		(at 273.05 20.32)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2595,7 +2595,7 @@
 		(uuid "1cc1eda3-59b6-43b9-bc48-637f59fc4207")
 	)
 	(bus_entry
-		(at 274.32 24.13)
+		(at 273.05 22.86)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2695,7 +2695,7 @@
 	)
 	(bus
 		(pts
-			(xy 274.32 20.32) (xy 274.32 21.59)
+			(xy 273.05 19.05) (xy 273.05 20.32)
 		)
 		(stroke
 			(width 0)
@@ -2785,7 +2785,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 26.67) (xy 271.78 26.67)
+			(xy 261.62 25.4) (xy 270.51 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2975,7 +2975,7 @@
 	)
 	(bus
 		(pts
-			(xy 276.86 20.32) (xy 274.32 20.32)
+			(xy 275.59 19.05) (xy 273.05 19.05)
 		)
 		(stroke
 			(width 0)
@@ -3105,7 +3105,7 @@
 	)
 	(bus
 		(pts
-			(xy 274.32 24.13) (xy 274.32 26.67)
+			(xy 273.05 22.86) (xy 273.05 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3495,7 +3495,7 @@
 	)
 	(bus
 		(pts
-			(xy 274.32 21.59) (xy 274.32 24.13)
+			(xy 273.05 20.32) (xy 273.05 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3755,16 +3755,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 36.83) (xy 127 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca349aad-fe90-4ea8-af9e-5039db8467c4")
-	)
-	(wire
-		(pts
 			(xy 104.14 67.31) (xy 104.14 72.39)
 		)
 		(stroke
@@ -3785,7 +3775,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 24.13) (xy 271.78 24.13)
+			(xy 261.62 22.86) (xy 270.51 22.86)
 		)
 		(stroke
 			(width 0)
@@ -4045,18 +4035,6 @@
 		)
 		(uuid 3fe4d5cf-634a-4373-83ca-240c74a98146)
 	)
-	(rectangle
-		(start 171.45 71.12)
-		(end 238.76 111.76)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid cd1a091c-f8c7-4448-a2a2-3a5d5442132f)
-	)
 	(text_box "A:Values of RT1 AND RT2 IS VALID IF THE BELOW RECOMMENDED THERMISTER IS USED (Thermistor 103AT-2)\nB: When TS pin is not used: connect a RT1=10-kΩ resistor RT2 = 10-kΩ resistor from TS to GND\nC: 1% or higher accuracy of resistors is needed for R1 and R2 resisitors. For a 1-cell 4.2-V battery, R21 = 562 kΩ and R22 = 200 kΩ \nFor a 2-cell 8.4-V,battery, R21 = 1.33MΩ and R22 = 200 kΩ\nD: INDUCTOR VALUE DEPENDENT ON VBUS_MAX IS <6.2V THEN INDUCTOR (L2)= 1.0uH\nVBUS_MAX IS >6.2V THEN INDUCTOR (L2)= 2.2uH"
 		(exclude_from_sim no)
 		(at 43.18 129.54 0)
@@ -4076,16 +4054,6 @@
 			(justify left top)
 		)
 		(uuid "224d64f8-d3e2-4053-92d1-b8bafaff2c62")
-	)
-	(text "Protection/ gauging?"
-		(exclude_from_sim no)
-		(at 206.248 91.186 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1014266b-d583-411d-9232-0782689e1ee1")
 	)
 	(text "B"
 		(exclude_from_sim no)
@@ -4140,7 +4108,7 @@
 		(uuid "0c2eefdf-2c66-4bc4-917e-d98e7bff2aa3")
 	)
 	(label "ICH2"
-		(at 262.89 26.67 0)
+		(at 261.62 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4162,7 +4130,7 @@
 		(uuid "8b4f92e6-6ac0-4dcb-9688-04ab7464bf7d")
 	)
 	(label "ICH1"
-		(at 262.89 24.13 0)
+		(at 261.62 22.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4196,7 +4164,7 @@
 	)
 	(hierarchical_label "{IO}"
 		(shape input)
-		(at 276.86 20.32 0)
+		(at 275.59 19.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

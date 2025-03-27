@@ -1074,6 +1074,25 @@
 		(color 0 0 0 0)
 		(uuid "d8a7d455-21d5-4f0a-ac16-12d8cc77f0a0")
 	)
+	(bus_entry
+		(at 200.66 60.96)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2c9046-ddf2-4fd9-ba26-6deebaf03a5b")
+	)
+	(bus
+		(pts
+			(xy 204.47 59.69) (xy 200.66 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d5ba0a-b069-4cb7-8b38-b58e84c6b250")
+	)
 	(wire
 		(pts
 			(xy 165.1 83.82) (xy 137.16 83.82)
@@ -1083,6 +1102,16 @@
 			(type default)
 		)
 		(uuid "09a30b50-b775-42af-a49f-3930493064ee")
+	)
+	(bus
+		(pts
+			(xy 200.66 59.69) (xy 200.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ac1fe3-e59d-4539-9dd4-29068ed43af3")
 	)
 	(wire
 		(pts
@@ -1113,6 +1142,16 @@
 			(type default)
 		)
 		(uuid "27bde8d0-d7db-4900-a25d-8ed2c065ab6a")
+	)
+	(bus
+		(pts
+			(xy 200.66 60.96) (xy 200.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce5896a-c3e8-4a20-ae5a-a8a491065ef3")
 	)
 	(wire
 		(pts
@@ -1183,6 +1222,16 @@
 			(type default)
 		)
 		(uuid "4dace095-2963-49a9-b119-89cde57a2840")
+	)
+	(wire
+		(pts
+			(xy 187.96 63.5) (xy 198.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "501a462f-c4c0-44af-80fd-312385cec6a6")
 	)
 	(wire
 		(pts
@@ -1356,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 93.98) (xy 210.82 93.98)
+			(xy 199.39 93.98) (xy 204.47 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1406,17 +1455,6 @@
 		)
 		(uuid "b4c2cdff-8e87-4ccb-90b9-3f7b781ddcb7")
 	)
-	(label "DIN"
-		(at 96.52 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "378de714-ba33-4044-af1c-aface89de0ce")
-	)
 	(label "LED_EN"
 		(at 138.43 76.2 180)
 		(fields_autoplaced yes)
@@ -1427,6 +1465,17 @@
 			(justify right bottom)
 		)
 		(uuid "54e368ee-3046-426b-8c93-42c3d365d34c")
+	)
+	(label "LED_EN"
+		(at 187.96 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7ca20b8-d31c-4102-93af-0ca3bf0466d7")
 	)
 	(label "V_led"
 		(at 116.84 83.82 0)
@@ -1439,16 +1488,41 @@
 		)
 		(uuid "b06a4d37-d2ba-457f-9ca1-57411fabc51f")
 	)
-	(label "DOUT"
-		(at 210.82 93.98 180)
+	(hierarchical_label "DIN"
+		(shape input)
+		(at 96.52 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "cffa200d-a7d3-4c4b-b14d-68209c9d5a6c")
+		(uuid "0678c20c-b5d5-482a-968e-17a6375fe25b")
+	)
+	(hierarchical_label "DOUT"
+		(shape output)
+		(at 204.47 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "885b3ca2-d90d-4453-a188-7e4cd1aec618")
+	)
+	(hierarchical_label "{IO}"
+		(shape input)
+		(at 204.47 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f89ad98d-f4fb-4350-83bc-9641b0936f82")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
