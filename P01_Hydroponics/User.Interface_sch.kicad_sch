@@ -520,7 +520,7 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:NMOS"
+		(symbol "Simulation_SPICE:PMOS"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -537,7 +537,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
+			(property "Value" "PMOS"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -564,7 +564,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Description" "P-MOSFET transistor, drain/source/gate"
 				(at 0 0 0)
 				(effects
 					(font
@@ -573,7 +573,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NMOS"
+			(property "Sim.Device" "PMOS"
 				(at 0 -17.145 0)
 				(effects
 					(font
@@ -600,7 +600,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
 				(at 0 0 0)
 				(effects
 					(font
@@ -609,7 +609,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(symbol "PMOS_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -696,7 +696,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -708,7 +708,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
 					)
 					(stroke
 						(width 0)
@@ -720,7 +720,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
 					)
 					(stroke
 						(width 0)
@@ -732,7 +732,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -776,7 +776,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
+			(symbol "PMOS_1_1"
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
@@ -1525,75 +1525,6 @@
 		(uuid "f89ad98d-f4fb-4350-83bc-9641b0936f82")
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 137.16 125.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0247e25a-f097-4a09-83f9-bbd791b7dab5")
-		(property "Reference" "C19"
-			(at 136.906 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 140.716 122.936 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 137.16 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "defb2bb8-22f6-4000-8527-53470fdaebb1")
-		)
-		(pin "2"
-			(uuid "7de669fc-015e-460d-b92d-3e8fda86797e")
-		)
-		(instances
-			(project "P01_Hydroponics"
-				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 129.54 66.04 0)
 		(unit 1)
@@ -1603,7 +1534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a757917-103e-40da-bb53-d572dd2cf04d")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 129.54 69.85 0)
 			(effects
 				(font
@@ -1653,7 +1584,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1821,7 +1752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c94d32d-c7c2-490e-abb1-726b613478a4")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR032"
 			(at 110.49 124.46 0)
 			(effects
 				(font
@@ -1871,7 +1802,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "#PWR044")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1887,7 +1818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fcc6b2c-353b-4c97-82cb-a92f2d0cb755")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR041"
 			(at 137.16 137.16 0)
 			(effects
 				(font
@@ -1937,7 +1868,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "#PWR051")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -1953,7 +1884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24f98067-4b6f-4b8c-a29e-5ac732b45003")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR039"
 			(at 137.16 110.49 0)
 			(effects
 				(font
@@ -2003,23 +1934,24 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "#PWR041")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 128.27 125.73 180)
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 111.76 76.2 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "26389c16-659d-4267-8917-5844e24020f6")
-		(property "Reference" "C18"
-			(at 128.016 123.698 0)
+		(uuid "4f5be38d-06d6-41e8-8bff-189173da610f")
+		(property "Reference" "Q1"
+			(at 114.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,8 +1959,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 131.826 122.936 90)
+		(property "Value" "SQ2337CES-T1_GE3"
+			(at 105.664 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,8 +1968,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 125.73 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 106.68 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,8 +1977,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 128.27 125.73 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 111.76 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2054,8 +1986,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 128.27 125.73 0)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 111.76 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,16 +1995,46 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "bc41c985-f5a7-4f99-988e-598234552c76")
+		(property "Sim.Device" "PMOS"
+			(at 111.76 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "53e150f9-5fa1-4290-9a39-61e5736222ed")
+			(uuid "2612f36c-5d8a-439a-b343-5262bf564a99")
+		)
+		(pin "3"
+			(uuid "5a07830b-1836-4a98-bb28-1ea44b19a576")
+		)
+		(pin "1"
+			(uuid "928403c5-7cc3-4dba-81fc-0b04a6e48aa4")
 		)
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "C18")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2087,7 +2049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fee0f5f-c4a3-49a7-bd2a-4f725fb0459b")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 130.81 69.85 0)
 			(effects
 				(font
@@ -2105,7 +2067,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 129.54 71.12 0)
 			(effects
 				(font
@@ -2141,7 +2103,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2156,7 +2118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50ddad80-b452-49f5-82b6-329ee5685bc3")
-		(property "Reference" "R15"
+		(property "Reference" "R11"
 			(at 123.19 74.168 90)
 			(effects
 				(font
@@ -2172,7 +2134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 123.19 76.2 0)
 			(effects
 				(font
@@ -2208,24 +2170,23 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "R15")
+					(reference "R11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 111.76 76.2 180)
+		(lib_id "Device:C_Small")
+		(at 128.27 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "544e5c03-0a05-49ef-9972-4953fee007ff")
-		(property "Reference" "Q1"
-			(at 105.41 74.9299 0)
+		(uuid "53cd2a11-cf85-4589-b890-1a1f8ab2de01")
+		(property "Reference" "C15"
+			(at 128.016 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,8 +2194,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
-			(at 105.41 77.4699 0)
+		(property "Value" "0.1uF/10VDC"
+			(at 131.318 119.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,8 +2203,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 106.68 78.74 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 128.27 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,8 +2212,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 111.76 63.5 0)
+		(property "Datasheet" "https://nl.mouser.com/ProductDetail/TAIYO-YUDEN/LMK107B7105KA-T?qs=PzICbMaShUcSYTxLDnqe3A%3D%3D"
+			(at 128.27 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,8 +2221,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 111.76 76.2 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 128.27 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,46 +2230,24 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "NMOS"
-			(at 111.76 59.055 0)
+		(property "Dielectric" "X7R"
+			(at 126.238 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 111.76 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 111.76 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d55dab23-6b6c-4d3e-899f-1307698e2140")
-		)
-		(pin "3"
-			(uuid "6ecc02d3-3d15-4833-9d35-707ae00324e1")
 		)
 		(pin "1"
-			(uuid "9acd5f10-c712-44a2-9329-541e4b8f0c55")
+			(uuid "7a0355bd-27c7-455d-a1ae-6b80ce14ea5a")
+		)
+		(pin "2"
+			(uuid "8641f0c7-0030-4ab5-864e-b8308403204d")
 		)
 		(instances
-			(project ""
+			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "Q1")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2381,75 +2320,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 119.38 125.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7596aeff-194e-47f5-b86e-3826ef3cf170")
-		(property "Reference" "C17"
-			(at 119.126 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 122.936 122.936 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 119.38 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb29f259-0378-459d-845c-dad0a62e3e10")
-		)
-		(pin "2"
-			(uuid "391e022a-a38c-4d3b-a875-c295538c50da")
-		)
-		(instances
-			(project "P01_Hydroponics"
-				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 119.38 120.65 0)
 		(unit 1)
@@ -2459,7 +2329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85587285-f66c-4c67-bed2-304069233d83")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR034"
 			(at 119.38 124.46 0)
 			(effects
 				(font
@@ -2509,7 +2379,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "#PWR045")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2525,7 +2395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cdc3e79-53d2-4d3b-95b9-24c5b8de6b97")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR033"
 			(at 110.49 137.16 0)
 			(effects
 				(font
@@ -2575,7 +2445,84 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "#PWR048")
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 137.16 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb59826a-5a97-4d17-b58e-c88fd749a5e1")
+		(property "Reference" "C16"
+			(at 136.906 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF/10VDC"
+			(at 140.208 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.mouser.com/ProductDetail/TAIYO-YUDEN/LMK107B7105KA-T?qs=PzICbMaShUcSYTxLDnqe3A%3D%3D"
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 135.128 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dec522de-8663-4970-8f1b-44002ad2be37")
+		)
+		(pin "2"
+			(uuid "70761ae2-0585-4503-82d4-a07bab2fd580")
+		)
+		(instances
+			(project "P01_Hydroponics"
+				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2591,7 +2538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd940101-2624-48a8-b91a-7baca1e73993")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR040"
 			(at 137.16 124.46 0)
 			(effects
 				(font
@@ -2641,76 +2588,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 110.49 125.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2ebf6fc-9ee2-4dfe-8faa-c2a7b78ba2de")
-		(property "Reference" "C16"
-			(at 110.236 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 114.046 122.936 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 110.49 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5552bb1f-6b95-4a28-8dbc-ca3ba72167ef")
-		)
-		(pin "2"
-			(uuid "32f043e9-a721-459f-88a4-54fc6b8c99e9")
-		)
-		(instances
-			(project "P01_Hydroponics"
-				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "C16")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2726,7 +2604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7a5ff1b-1df3-4db9-92c0-35e787ae5cee")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR030"
 			(at 109.22 68.58 0)
 			(effects
 				(font
@@ -2776,7 +2654,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "#PWR038")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2792,7 +2670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8e259c9-5c8e-4d1f-a8c5-d16a0cecf897")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR035"
 			(at 119.38 137.16 0)
 			(effects
 				(font
@@ -2842,7 +2720,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "#PWR049")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2858,7 +2736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3122f43-7d35-4558-9e0c-15e76fcf3225")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR037"
 			(at 128.27 137.16 0)
 			(effects
 				(font
@@ -2908,7 +2786,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "#PWR050")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2924,7 +2802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d617eadd-6b08-4271-a2f6-9063f43c220f")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR036"
 			(at 128.27 124.46 0)
 			(effects
 				(font
@@ -2974,7 +2852,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "#PWR046")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3057,6 +2935,160 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 110.49 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e22577aa-cb72-4854-b6af-4f3021ddc829")
+		(property "Reference" "C13"
+			(at 110.236 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF/10VDC"
+			(at 113.538 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 110.49 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.mouser.com/ProductDetail/TAIYO-YUDEN/LMK107B7105KA-T?qs=PzICbMaShUcSYTxLDnqe3A%3D%3D"
+			(at 110.49 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 110.49 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 108.458 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7593778-f902-4349-a47e-7bbd4f76384b")
+		)
+		(pin "2"
+			(uuid "1298acbf-6f38-4ed9-b2e3-eb2c90572915")
+		)
+		(instances
+			(project "P01_Hydroponics"
+				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 119.38 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e22f02b2-8ad2-4ce4-82ff-680bf6296d81")
+		(property "Reference" "C14"
+			(at 119.126 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF/10VDC"
+			(at 122.428 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.mouser.com/ProductDetail/TAIYO-YUDEN/LMK107B7105KA-T?qs=PzICbMaShUcSYTxLDnqe3A%3D%3D"
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 117.348 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "388ca978-8002-4d75-a04d-9be988209c9c")
+		)
+		(pin "2"
+			(uuid "a4b928ab-4143-47d0-8060-6c33f0f3aae2")
+		)
+		(instances
+			(project "P01_Hydroponics"
+				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 104.14 0)
 		(unit 1)
@@ -3066,7 +3098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6f467f8-71b8-4231-9b05-de57682738b0")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR031"
 			(at 109.22 110.49 0)
 			(effects
 				(font
@@ -3116,7 +3148,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/428ea429-cc4e-4f78-8c56-b27dd8bc0f5d"
-					(reference "#PWR040")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)

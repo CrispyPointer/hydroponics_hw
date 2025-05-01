@@ -861,319 +861,6 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_FET:BSS138"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1460,6 +1147,337 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_FET:DMN3008SFG"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DMN3008SFG"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN3008SFG.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "17.6A Id, 30V Vds, N-Channel Power MOSFET, 4.4mOhm Ron, 86nC Qg (typ), PowerDI3333-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Diodes*PowerDI3333*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DMN3008SFG_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.254 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "DMN3008SFG_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54) hide
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54) hide
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3007,7 +3025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d62c380-a091-4e21-8549-66aa85948515")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR050"
 			(at 144.78 64.77 0)
 			(effects
 				(font
@@ -3057,7 +3075,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "#PWR083")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3073,7 +3091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1461ed39-ea6a-4144-bbf0-165a16850b36")
-		(property "Reference" "R39"
+		(property "Reference" "R16"
 			(at 199.39 71.12 90)
 			(effects
 				(font
@@ -3089,7 +3107,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 199.39 76.2 0)
 			(effects
 				(font
@@ -3125,7 +3143,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "R39")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3141,7 +3159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14cedd04-d046-4fc0-962d-f006dac42abd")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR058"
 			(at 220.98 115.57 0)
 			(effects
 				(font
@@ -3191,7 +3209,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "#PWR097")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3207,7 +3225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "170f98a4-89c3-4b54-acd5-245aefa35085")
-		(property "Reference" "Q7"
+		(property "Reference" "Q3"
 			(at 212.09 130.81 90)
 			(effects
 				(font
@@ -3265,7 +3283,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "Q7")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -3281,7 +3299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1addef69-b470-4f0a-addd-c81f3f002ae0")
-		(property "Reference" "R17"
+		(property "Reference" "R14"
 			(at 86.36 81.2799 0)
 			(effects
 				(font
@@ -3299,7 +3317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 83.82 82.55 0)
 			(effects
 				(font
@@ -3335,7 +3353,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "R17")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3351,7 +3369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2036421b-7cea-4e45-b6ca-c1144a7c0954")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR053"
 			(at 147.32 129.54 0)
 			(effects
 				(font
@@ -3401,7 +3419,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "#PWR0101")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3417,7 +3435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "244992f2-f23b-44b7-b39e-5a7337aea24c")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR045"
 			(at 71.12 129.54 0)
 			(effects
 				(font
@@ -3467,7 +3485,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "#PWR093")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3483,7 +3501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f2a003e-a976-47db-8d75-ee4fdee9f747")
-		(property "Reference" "R41"
+		(property "Reference" "R17"
 			(at 205.74 119.3799 0)
 			(effects
 				(font
@@ -3501,7 +3519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 203.2 120.65 0)
 			(effects
 				(font
@@ -3537,7 +3555,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "R41")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3552,7 +3570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "361ef03a-e3b5-43ba-b481-1bdd344a0efd")
-		(property "Reference" "J8"
+		(property "Reference" "J6"
 			(at 160.528 115.824 0)
 			(effects
 				(font
@@ -3609,7 +3627,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "J8")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3624,7 +3642,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39c8ad85-7d3e-4eba-bc94-d2605fc0eb22")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 85.598 115.824 0)
 			(effects
 				(font
@@ -3681,7 +3699,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3697,7 +3715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e96fa07-f058-444c-a97b-3e404097d0c2")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR046"
 			(at 93.98 60.96 0)
 			(effects
 				(font
@@ -3747,7 +3765,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "#PWR090")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -3763,7 +3781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4063b7a4-67e2-414c-a063-ea4e5b4f1e8a")
-		(property "Reference" "R40"
+		(property "Reference" "R18"
 			(at 208.28 81.2799 0)
 			(effects
 				(font
@@ -3781,7 +3799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 205.74 82.55 0)
 			(effects
 				(font
@@ -3817,7 +3835,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "R40")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3833,7 +3851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42eb7c46-05e0-4827-82c2-945ed266ed0a")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR047"
 			(at 93.98 95.25 0)
 			(effects
 				(font
@@ -3883,7 +3901,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "#PWR052")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3898,7 +3916,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "433938c2-ba0d-4402-b87d-24f2c2d98ffd")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 117.348 115.824 0)
 			(effects
 				(font
@@ -3955,7 +3973,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3970,7 +3988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a11d9ea-0492-4964-b24a-bf9fd321a7e9")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 156.718 67.564 0)
 			(effects
 				(font
@@ -4027,7 +4045,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4042,7 +4060,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b17f6f5-1b12-45d5-b7ab-0b976c4b89e5")
-		(property "Reference" "R38"
+		(property "Reference" "R15"
 			(at 145.796 64.008 0)
 			(effects
 				(font
@@ -4060,7 +4078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 144.78 64.77 0)
 			(effects
 				(font
@@ -4096,7 +4114,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "R38")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4112,7 +4130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "723d2215-1d9c-49c3-b062-856d2c2e595b")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR054"
 			(at 151.13 64.77 0)
 			(effects
 				(font
@@ -4162,7 +4180,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "#PWR085")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4178,7 +4196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b803d6a-d0ae-458d-b15e-f2705d9187de")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR057"
 			(at 215.9 95.25 0)
 			(effects
 				(font
@@ -4228,14 +4246,14 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "#PWR089")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "Transistor_FET:DMN3008SFG")
 		(at 213.36 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4243,8 +4261,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8c30c069-1f3a-49ad-a3e5-d81b80e8185f")
-		(property "Reference" "Q6"
+		(uuid "7c1fe480-fb81-4a33-b76a-f2ea6cc246ae")
+		(property "Reference" "Q4"
 			(at 219.71 74.9299 0)
 			(effects
 				(font
@@ -4253,7 +4271,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "DMN3008SFG"
 			(at 219.71 77.4699 0)
 			(effects
 				(font
@@ -4262,25 +4280,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 218.44 73.66 0)
+		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
+			(at 218.44 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN3008SFG.pdf"
+			(at 218.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 213.36 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "17.6A Id, 30V Vds, N-Channel Power MOSFET, 4.4mOhm Ron, 86nC Qg (typ), PowerDI3333-8"
 			(at 213.36 76.2 0)
 			(effects
 				(font
@@ -4289,26 +4310,81 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "NMOS"
-			(at 213.36 93.345 0)
+		(pin "3"
+			(uuid "8426102b-9812-491b-994f-00e926c97996")
+		)
+		(pin "1"
+			(uuid "3ba6bca1-0486-4b11-99b4-cd846c1e50d1")
+		)
+		(pin "4"
+			(uuid "ff2a1f6a-1f94-4549-b860-cf67bfcf3473")
+		)
+		(pin "5"
+			(uuid "98488a8d-755b-4357-8d07-db5e2b374bf1")
+		)
+		(pin "2"
+			(uuid "ada79b3e-4ad4-4f58-9627-34365ea53164")
+		)
+		(instances
+			(project "P01_Hydroponics"
+				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMN3008SFG")
+		(at 91.44 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bdd5021-c980-42cc-83fb-c53b7be3d151")
+		(property "Reference" "Q2"
+			(at 97.79 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Sim.Type" "VDMOS"
-			(at 213.36 95.25 0)
+		(property "Value" "DMN3008SFG"
+			(at 97.79 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
+			(at 96.52 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 213.36 91.44 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN3008SFG.pdf"
+			(at 96.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "17.6A Id, 30V Vds, N-Channel Power MOSFET, 4.4mOhm Ron, 86nC Qg (typ), PowerDI3333-8"
+			(at 91.44 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,18 +4393,24 @@
 			)
 		)
 		(pin "3"
-			(uuid "74d2c787-1138-4ca5-850f-8ccd47d9d95f")
-		)
-		(pin "2"
-			(uuid "f6ab6d09-6ca5-4710-8f44-4ddbaa2c7b35")
+			(uuid "31ae6d22-0744-4b0e-9746-7538610d02b8")
 		)
 		(pin "1"
-			(uuid "87ed5b4e-f9e7-45af-b405-87cfe649c448")
+			(uuid "9d9d857e-6147-4f59-b813-10788d31b95f")
+		)
+		(pin "4"
+			(uuid "52c5349c-85b2-4925-a28c-7bd851876cef")
+		)
+		(pin "5"
+			(uuid "d2665bc1-ebb5-4568-83a0-656af1927605")
+		)
+		(pin "2"
+			(uuid "2699e7e2-9796-46e8-a260-223279f7d43e")
 		)
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "Q6")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -4344,7 +4426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eebfa08-604e-4328-86f2-40a43b97781a")
-		(property "Reference" "R42"
+		(property "Reference" "R19"
 			(at 223.52 119.3799 0)
 			(effects
 				(font
@@ -4362,7 +4444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 220.98 120.65 0)
 			(effects
 				(font
@@ -4398,7 +4480,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "R42")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4414,7 +4496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f39dc8e-f1e1-4b28-a2df-c25bb3ca5d1b")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR049"
 			(at 104.14 129.54 0)
 			(effects
 				(font
@@ -4464,7 +4546,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "#PWR095")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4480,7 +4562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99eff08e-544b-4e12-af5a-2f1272ed1458")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR055"
 			(at 203.2 115.57 0)
 			(effects
 				(font
@@ -4530,7 +4612,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "#PWR096")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4545,7 +4627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d5c78e0-aa12-4858-99d4-cd69eceffb16")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR056"
 			(at 215.9 58.42 0)
 			(effects
 				(font
@@ -4595,7 +4677,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "#PWR087")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4699,7 +4781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a07b8a98-76be-423e-8de6-24e5830b8844")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR044"
 			(at 71.12 116.84 0)
 			(effects
 				(font
@@ -4749,7 +4831,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "#PWR092")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4765,7 +4847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9c7df7b-0bae-4de2-b613-60ee7b19c2b3")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR048"
 			(at 104.14 116.84 0)
 			(effects
 				(font
@@ -4815,7 +4897,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "#PWR091")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4831,7 +4913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d63bca95-200d-4004-9239-91ad131cebe2")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 100.33 62.2299 0)
 			(effects
 				(font
@@ -4885,7 +4967,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4901,7 +4983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbc0b846-a5a4-466d-9b24-0bb345fe8d9a")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR052"
 			(at 147.32 116.84 0)
 			(effects
 				(font
@@ -4951,7 +5033,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "#PWR0100")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4967,7 +5049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9cf60b5-4870-4c6d-a39f-d07a75103e24")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR051"
 			(at 144.78 81.28 0)
 			(effects
 				(font
@@ -5017,107 +5099,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 91.44 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee7a7811-5897-4d58-b763-72c52a834c56")
-		(property "Reference" "Q2"
-			(at 97.79 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 97.79 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 91.44 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 91.44 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 91.44 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 91.44 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 91.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7f59478a-d0e3-4bca-b4fb-3b24b2f6f311")
-		)
-		(pin "2"
-			(uuid "1f87099e-1779-43d6-b7fa-fe873becadc2")
-		)
-		(pin "1"
-			(uuid "ac31b91d-3e39-440b-9a26-78158ffee2ff")
-		)
-		(instances
-			(project ""
-				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "Q2")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -5133,7 +5115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f52290a2-dfa0-4206-be73-38973b97ebce")
-		(property "Reference" "J4"
+		(property "Reference" "J7"
 			(at 224.155 55.88 0)
 			(effects
 				(font
@@ -5188,7 +5170,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "J4")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5204,7 +5186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb1f0252-4999-4460-9bd3-d5d8b8c2ce4f")
-		(property "Reference" "R16"
+		(property "Reference" "R13"
 			(at 77.47 71.12 90)
 			(effects
 				(font
@@ -5220,7 +5202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 77.47 76.2 0)
 			(effects
 				(font
@@ -5256,7 +5238,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/d0dfc5ef-a144-4c79-b9fc-fc1612b2e1ba"
-					(reference "R16")
+					(reference "R13")
 					(unit 1)
 				)
 			)

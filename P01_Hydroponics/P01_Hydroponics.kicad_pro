@@ -365,6 +365,18 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielelectric",
+          "name": "Dielelectric",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -444,6 +456,10 @@
     [
       "2d86bb39-20a4-44ab-a332-a2df255b6f9f",
       "Power"
+    ],
+    [
+      "7a7bee4a-1998-409e-ac3e-bd1f1a058eb3",
+      "Radio controller"
     ]
   ],
   "text_variables": {}

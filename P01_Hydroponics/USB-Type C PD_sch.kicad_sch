@@ -3746,16 +3746,16 @@
 		(uuid "c075d45e-dc45-472c-ad56-84a90543c94a")
 	)
 	(junction
+		(at 110.49 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c191314f-456a-40aa-8c05-14043a35a47d")
+	)
+	(junction
 		(at 76.2 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c370d987-c00a-43e4-a840-c4fa9bd8dddc")
-	)
-	(junction
-		(at 111.76 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c75ba5f0-c6ec-4b6f-a4c5-628c51915fcc")
 	)
 	(junction
 		(at 82.55 49.53)
@@ -3851,7 +3851,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 35.56) (xy 111.76 35.56)
+			(xy 99.06 35.56) (xy 110.49 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4321,7 +4321,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 44.45) (xy 111.76 46.99)
+			(xy 110.49 44.45) (xy 110.49 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4621,7 +4621,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 35.56) (xy 111.76 39.37)
+			(xy 110.49 35.56) (xy 110.49 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4801,16 +4801,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 35.56) (xy 114.3 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad99e630-3646-49dd-8f1c-31d8aac676a8")
-	)
-	(wire
-		(pts
 			(xy 143.51 91.44) (xy 142.24 91.44)
 		)
 		(stroke
@@ -4968,6 +4958,16 @@
 			(type default)
 		)
 		(uuid "db813926-019c-47bd-b450-1f5035ca9187")
+	)
+	(wire
+		(pts
+			(xy 110.49 35.56) (xy 114.3 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba0c940-cf79-4713-83c3-42186b6e5e47")
 	)
 	(wire
 		(pts
@@ -7696,7 +7696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "008e7bd1-80c3-4e09-b43b-d8a7d448d155")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR064"
 			(at 142.24 99.06 0)
 			(effects
 				(font
@@ -7746,7 +7746,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "#PWR01")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -7762,7 +7762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08dc693e-856f-4b9f-ad92-1d5202338fbc")
-		(property "Reference" "Q4"
+		(property "Reference" "Q7"
 			(at 223.52 52.07 90)
 			(effects
 				(font
@@ -7820,7 +7820,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "Q4")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -7835,7 +7835,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f9e30a1-fcda-47d2-802d-e74b47fd8b6f")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 74.168 59.69 90)
 			(effects
 				(font
@@ -7851,7 +7851,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 76.2 59.69 0)
 			(effects
 				(font
@@ -7887,7 +7887,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7902,7 +7902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14bc455b-3e3e-4ed7-a5d9-d9fc6d696b9e")
-		(property "Reference" "R23"
+		(property "Reference" "R27"
 			(at 144.78 45.7199 0)
 			(effects
 				(font
@@ -7920,7 +7920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 142.24 46.99 0)
 			(effects
 				(font
@@ -7956,7 +7956,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "R23")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7972,7 +7972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18b22fb5-3262-4fde-a2b4-17a43a3cf79b")
-		(property "Reference" "R35"
+		(property "Reference" "R31"
 			(at 234.95 40.6399 0)
 			(effects
 				(font
@@ -7990,7 +7990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 232.41 41.91 0)
 			(effects
 				(font
@@ -8026,7 +8026,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "R35")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -8042,7 +8042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21cd6be6-b827-4667-b718-553a367e46ab")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR060"
 			(at 67.31 115.57 0)
 			(effects
 				(font
@@ -8092,7 +8092,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "#PWR053")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -8107,7 +8107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b5bd802-ddbb-492e-ac5e-4e9fd30914eb")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR059"
 			(at 52.07 80.01 0)
 			(effects
 				(font
@@ -8157,7 +8157,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "#PWR054")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8173,7 +8173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e1f9703-51dc-4dca-8944-157f0f3c6387")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR061"
 			(at 99.06 59.69 0)
 			(effects
 				(font
@@ -8223,7 +8223,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -8238,7 +8238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41be3d2a-2daf-4bf8-8b47-e63afb1636cc")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 129.032 52.07 0)
 			(effects
 				(font
@@ -8361,7 +8361,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8376,7 +8376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4470d7e4-444c-48c8-8e46-742aa6bcb7f4")
-		(property "Reference" "R19"
+		(property "Reference" "R22"
 			(at 81.788 100.33 90)
 			(effects
 				(font
@@ -8392,7 +8392,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 83.82 100.33 0)
 			(effects
 				(font
@@ -8428,76 +8428,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 111.76 41.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4626f0c6-b6ae-4f88-9bb1-174cbdddab7c")
-		(property "Reference" "C23"
-			(at 111.506 39.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 115.316 39.116 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 111.76 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ae7e73a-a42b-453d-99f8-a02c474ce8f9")
-		)
-		(pin "2"
-			(uuid "14336721-b596-4cec-9653-8bac2d552059")
-		)
-		(instances
-			(project "P01_Hydroponics"
-				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "C23")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -8513,7 +8444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "493148b4-bd44-4bc8-8da6-e6c02fcdc57c")
-		(property "Reference" "R34"
+		(property "Reference" "R29"
 			(at 217.17 40.6399 0)
 			(effects
 				(font
@@ -8531,7 +8462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 214.63 41.91 0)
 			(effects
 				(font
@@ -8567,7 +8498,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "R34")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -8582,7 +8513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "531c3904-b791-4b7e-a7ec-637d89f48814")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 80.518 59.69 90)
 			(effects
 				(font
@@ -8598,7 +8529,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 82.55 59.69 0)
 			(effects
 				(font
@@ -8634,7 +8565,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8650,7 +8581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53b3d221-78d2-4b2b-a80b-54a17afc1156")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR070"
 			(at 214.63 36.83 0)
 			(effects
 				(font
@@ -8700,7 +8631,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "#PWR079")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -8716,7 +8647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54740975-bb81-4785-b932-de0eac026347")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 123.19 87.9474 90)
 			(effects
 				(font
@@ -8734,7 +8665,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 119.38 87.63 0)
 			(effects
 				(font
@@ -8770,7 +8701,84 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "D7")
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 168.91 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "557bb4c2-1f84-465b-b588-53def108f69e")
+		(property "Reference" "C20"
+			(at 168.656 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF/10VDC"
+			(at 171.958 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 168.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.mouser.com/ProductDetail/TAIYO-YUDEN/LMK107B7105KA-T?qs=PzICbMaShUcSYTxLDnqe3A%3D%3D"
+			(at 168.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 168.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 166.878 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "797be251-8c7d-4f5b-b17f-27436bf9e0e2")
+		)
+		(pin "2"
+			(uuid "f9dd86a5-391b-4ed8-8905-109ac4d22600")
+		)
+		(instances
+			(project "P01_Hydroponics"
+				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -8786,7 +8794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5eca7bee-3e90-446d-b810-9dda8f5906c4")
-		(property "Reference" "R36"
+		(property "Reference" "R30"
 			(at 217.17 69.8499 0)
 			(effects
 				(font
@@ -8804,7 +8812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 214.63 71.12 0)
 			(effects
 				(font
@@ -8840,7 +8848,162 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "R36")
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 177.8 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68e3ff8a-4159-4779-909d-7e6cfb0cc70d")
+		(property "Reference" "C21"
+			(at 177.546 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF/10VDC"
+			(at 180.848 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.mouser.com/ProductDetail/TAIYO-YUDEN/LMK107B7105KA-T?qs=PzICbMaShUcSYTxLDnqe3A%3D%3D"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 175.768 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a34041a-5e9d-4afd-b8be-1bd52397a0f0")
+		)
+		(pin "2"
+			(uuid "5770caaa-6672-4f15-8360-b3755aa23f8d")
+		)
+		(instances
+			(project "P01_Hydroponics"
+				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 168.91 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6912fcd3-b2a4-4549-aeb6-9a0d352f9d8f")
+		(property "Reference" "C19"
+			(at 168.656 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF/25VDC"
+			(at 171.958 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.mouser.com/ProductDetail/Murata-Electronics/GRM188R61E106MA73D?qs=PoXZt%252B2CjACpktoD15Kv0Q%3D%3D"
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 168.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 168.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "ade49b23-88a0-4afb-9cca-461848c56bcb")
+		)
+		(pin "2"
+			(uuid "9435d909-3d81-4990-889e-97e1b0f4cb7d")
+		)
+		(instances
+			(project "P01_Hydroponics"
+				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -8856,7 +9019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d8c5833-7cb7-420e-b304-60311b3bda95")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR069"
 			(at 186.69 99.06 0)
 			(effects
 				(font
@@ -8906,7 +9069,84 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "#PWR059")
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 160.02 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71c98800-d779-4ad3-843d-11bb6667d548")
+		(property "Reference" "C18"
+			(at 159.766 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF/10VDC"
+			(at 163.576 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 160.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nl.mouser.com/ProductDetail/TDK/C1608X5R1A106K080AC?qs=NRhsANhppD%252B2Bx3rv7OLbA%3D%3D"
+			(at 160.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 160.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 157.988 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a92e1389-6600-46ef-a090-e54ce2efdc2c")
+		)
+		(pin "2"
+			(uuid "4959928f-19ea-4cef-a3c1-8344d127a22b")
+		)
+		(instances
+			(project "P01_Hydroponics"
+				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8922,7 +9162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "723be430-265b-42bd-859d-7495879fb59e")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR072"
 			(at 232.41 36.83 0)
 			(effects
 				(font
@@ -8972,76 +9212,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 177.8 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "759d3a8c-08ab-4f73-98ce-c24fad3e2a6f")
-		(property "Reference" "C22"
-			(at 177.546 86.868 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 181.356 86.106 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 177.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f2ba6fa-684d-4f64-a472-9754aa5ab553")
-		)
-		(pin "2"
-			(uuid "6b61d9d1-fcef-42ff-9576-d65a82723da0")
-		)
-		(instances
-			(project "P01_Hydroponics"
-				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "C22")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -9057,7 +9228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a22ac7c-8027-4975-977a-0292de846103")
-		(property "Reference" "R26"
+		(property "Reference" "R24"
 			(at 101.6 39.3699 0)
 			(effects
 				(font
@@ -9075,7 +9246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 99.06 40.64 0)
 			(effects
 				(font
@@ -9111,7 +9282,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "R26")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -9126,7 +9297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f5e7ae4-648a-4bca-af3d-afb6843c08e3")
-		(property "Reference" "R18"
+		(property "Reference" "R23"
 			(at 88.138 100.33 90)
 			(effects
 				(font
@@ -9142,7 +9313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 90.17 100.33 0)
 			(effects
 				(font
@@ -9178,7 +9349,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "R18")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -9194,7 +9365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82688b00-e6ca-4956-b2d8-e2a52452dbf6")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR065"
 			(at 160.02 99.06 0)
 			(effects
 				(font
@@ -9244,7 +9415,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "#PWR056")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -9260,7 +9431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9006fe49-759a-4445-937d-28f5ee4e8f31")
-		(property "Reference" "R22"
+		(property "Reference" "R25"
 			(at 119.38 29.21 90)
 			(effects
 				(font
@@ -9276,7 +9447,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 119.38 33.782 90)
 			(effects
 				(font
@@ -9286,7 +9457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://nl.mouser.com/ProductDetail/ROHM-Semiconductor/PMR25HZPFU5L00?qs=oBjDkOCjPF0vYPGJc1JhaA%3D%3D"
 			(at 119.38 35.56 0)
 			(effects
 				(font
@@ -9319,7 +9490,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "R22")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -9335,7 +9506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "937f3ff2-b531-4b42-afd1-713217193cdc")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR073"
 			(at 232.41 66.04 0)
 			(effects
 				(font
@@ -9385,7 +9556,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "#PWR081")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -9401,7 +9572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "955f507d-b5d5-415c-beef-b6302f1df9cc")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 121.92 77.4699 0)
 			(effects
 				(font
@@ -9419,7 +9590,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 119.38 78.74 0)
 			(effects
 				(font
@@ -9455,7 +9626,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -9471,7 +9642,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d5d3584-9b75-4084-99de-89080cbd2e3d")
-		(property "Reference" "Q8"
+		(property "Reference" "Q5"
 			(at 134.62 29.21 90)
 			(effects
 				(font
@@ -9535,7 +9706,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "Q8")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -9550,7 +9721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab0a24b8-4f0c-4390-98fd-840feb4786fb")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR066"
 			(at 168.91 53.34 0)
 			(effects
 				(font
@@ -9600,7 +9771,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "#PWR061")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -9616,7 +9787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0408edc-6035-4df7-9206-3ff2414e3448")
-		(property "Reference" "R37"
+		(property "Reference" "R32"
 			(at 234.95 69.8499 0)
 			(effects
 				(font
@@ -9634,7 +9805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 232.41 71.12 0)
 			(effects
 				(font
@@ -9670,7 +9841,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "R37")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -9686,7 +9857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0d04785-5ed5-40d1-8eaa-1bb6271c8c7e")
-		(property "Reference" "Q9"
+		(property "Reference" "Q6"
 			(at 149.86 29.21 90)
 			(effects
 				(font
@@ -9733,24 +9904,24 @@
 			)
 		)
 		(pin "3"
-			(uuid "cc50244a-1ac6-4f29-ab05-53a037e9dbbc")
+			(uuid "cc50244a-1ac6-4f29-ab05-53a037e9dbbd")
 		)
 		(pin "1"
-			(uuid "4e09eea7-32e5-4da8-821d-57938ceb03f6")
+			(uuid "4e09eea7-32e5-4da8-821d-57938ceb03f7")
 		)
 		(pin "4"
-			(uuid "cc85cc25-e982-4556-930c-3ee76cf6e4a1")
+			(uuid "cc85cc25-e982-4556-930c-3ee76cf6e4a2")
 		)
 		(pin "5"
-			(uuid "9edf39e5-a045-442d-8863-6901ae957804")
+			(uuid "9edf39e5-a045-442d-8863-6901ae957805")
 		)
 		(pin "2"
-			(uuid "eddc1a73-af0e-4ea5-9cde-62bd7cfd3a36")
+			(uuid "eddc1a73-af0e-4ea5-9cde-62bd7cfd3a37")
 		)
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "Q9")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -9766,7 +9937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3a8d489-c3aa-49b0-a682-3b3385d82853")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 102.87 48.5774 90)
 			(effects
 				(font
@@ -9784,7 +9955,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 99.06 48.26 0)
 			(effects
 				(font
@@ -9820,76 +9991,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 160.02 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5f58670-c910-413c-b0cd-c5dba25c03a5")
-		(property "Reference" "C20"
-			(at 159.766 86.868 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 163.576 86.106 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 160.02 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e191af1-14ce-4ce0-9f77-c1c22c57f879")
-		)
-		(pin "2"
-			(uuid "e93e6ee5-399f-4d69-a30c-0debe42e498b")
-		)
-		(instances
-			(project "P01_Hydroponics"
-				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "C20")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9905,7 +10007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7c5aae7-c3a9-4cb9-bbba-9792d6648d28")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 55.88 27.94 0)
 			(effects
 				(font
@@ -10002,7 +10104,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -10018,7 +10120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba696dd7-1a27-42d5-9fa9-d51bf8f15c38")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR063"
 			(at 119.38 99.06 0)
 			(effects
 				(font
@@ -10068,7 +10170,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "#PWR055")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10076,7 +10178,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 46.99 0)
+		(at 110.49 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10084,8 +10186,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5f77b3a-f695-4d2e-88ca-8b3fcd707bd8")
-		(property "Reference" "#PWR060"
-			(at 111.76 53.34 0)
+		(property "Reference" "#PWR062"
+			(at 110.49 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10094,7 +10196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 52.07 0)
+			(at 110.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10102,7 +10204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 46.99 0)
+			(at 110.49 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10111,7 +10213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 46.99 0)
+			(at 110.49 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10120,7 +10222,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 46.99 0)
+			(at 110.49 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10134,7 +10236,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "#PWR060")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -10150,7 +10252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c670b35b-b7a6-48ea-8650-fe4cb7490b0b")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR067"
 			(at 168.91 99.06 0)
 			(effects
 				(font
@@ -10200,76 +10302,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 168.91 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cdbca429-54a4-4d5b-8c77-afb8e7793f04")
-		(property "Reference" "C21"
-			(at 168.656 86.868 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 172.466 86.106 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 168.91 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22fea93f-9bfc-44da-b6cb-ccac09b41976")
-		)
-		(pin "2"
-			(uuid "56c6ec2c-90b8-4608-bb53-5c714368d8db")
-		)
-		(instances
-			(project "P01_Hydroponics"
-				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "C21")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -10285,7 +10318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da2781aa-4de2-4126-9e2d-458eedd973e4")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR068"
 			(at 177.8 99.06 0)
 			(effects
 				(font
@@ -10335,7 +10368,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "#PWR058")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -10369,7 +10402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 186.69 86.36 0)
 			(effects
 				(font
@@ -10421,7 +10454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "def700e5-59aa-4d12-880c-6713a1a5046b")
-		(property "Reference" "Q3"
+		(property "Reference" "Q8"
 			(at 223.52 81.28 90)
 			(effects
 				(font
@@ -10468,18 +10501,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f39efcc-6eba-4216-83ed-4dea36f1b6f1")
+			(uuid "3f39efcc-6eba-4216-83ed-4dea36f1b6f2")
 		)
 		(pin "3"
-			(uuid "f4cf1c76-6aa8-4393-bff0-08962f9a51ce")
+			(uuid "f4cf1c76-6aa8-4393-bff0-08962f9a51cf")
 		)
 		(pin "2"
-			(uuid "9acefe8f-cbeb-49ab-8b1a-e4ee76500553")
+			(uuid "9acefe8f-cbeb-49ab-8b1a-e4ee76500554")
 		)
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "Q3")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -10590,7 +10623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebb6dc26-aa73-4f6c-b582-a3e1630feee4")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR071"
 			(at 214.63 66.04 0)
 			(effects
 				(font
@@ -10640,7 +10673,7 @@
 		(instances
 			(project ""
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "#PWR078")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -10655,7 +10688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec7335af-1cf1-40a4-8497-7a94d587480f")
-		(property "Reference" "R24"
+		(property "Reference" "R28"
 			(at 158.75 45.7199 0)
 			(effects
 				(font
@@ -10673,7 +10706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 156.21 46.99 0)
 			(effects
 				(font
@@ -10709,7 +10742,7 @@
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "R24")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -10717,15 +10750,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 168.91 41.91 180)
+		(at 110.49 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f9f0c006-e4d8-49f2-a70e-dd330ccc1d08")
-		(property "Reference" "C24"
-			(at 168.656 39.878 0)
+		(uuid "f15ac47a-167d-4977-bdfa-2957ed525df0")
+		(property "Reference" "C17"
+			(at 110.236 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10733,8 +10766,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 172.466 39.116 90)
+		(property "Value" "10uF/25VDC"
+			(at 113.538 35.814 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10742,8 +10775,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 168.91 41.91 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 110.49 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10751,8 +10784,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 168.91 41.91 0)
+		(property "Datasheet" "https://nl.mouser.com/ProductDetail/Murata-Electronics/GRM188R61E106MA73D?qs=PoXZt%252B2CjACpktoD15Kv0Q%3D%3D"
+			(at 110.49 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10761,7 +10794,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 168.91 41.91 0)
+			(at 110.49 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10769,16 +10802,25 @@
 				(hide yes)
 			)
 		)
+		(property "Dielectric" "X5R"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(pin "1"
-			(uuid "96fd0e7a-de16-4ca2-82a8-4c8cdeb809f7")
+			(uuid "4ea21c35-151a-49fd-acfa-fe84bd61a24e")
 		)
 		(pin "2"
-			(uuid "00497350-aac6-4df5-b175-67a0a76ceeba")
+			(uuid "9071d3ef-07b4-4c9b-92cc-d1a7d3f4666c")
 		)
 		(instances
 			(project "P01_Hydroponics"
 				(path "/f251d969-db3d-42b0-b168-8992c4b2bbf4/9e5c4e77-de36-488a-a64d-10d75fbb8959"
-					(reference "C24")
+					(reference "C17")
 					(unit 1)
 				)
 			)
